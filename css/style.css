@@ -55,11 +55,6 @@ header {
     margin: 0 35px;
 }
 
-.ball:hover>img {
-    width: 110%;
-    height: 110%;
-}
-
 .contacts a {
     display: block;
     margin-bottom: 8px;
