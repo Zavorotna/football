@@ -55,6 +55,10 @@ header {
     margin: 0 35px;
 }
 
+.ball:hover>img {
+    width: 50%;
+}
+
 .contacts a {
     display: block;
     margin-bottom: 8px;
@@ -95,9 +99,11 @@ main p {
 }
 
 .menu li:hover>a {
+    padding: 10px;
+    font-size: 15px;
     color: #fff;
     background-color: #39930d;
-    border-radius: 5px;
+    border-radius: 2px;
     text-decoration: none; 
 }
 
