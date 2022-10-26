@@ -116,7 +116,6 @@ main p {
 
 .menu a {
     display: block;
-    transition-duration: 0.5s;
 }
 
 .menu li:hover>a {
