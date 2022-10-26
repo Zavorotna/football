@@ -79,10 +79,6 @@ header {
 
 }
 
-/* .ball:hover>img {
-    width: 50%;
-} */
-
 .contacts a {
     display: block;
     margin-bottom: 8px;
@@ -120,14 +116,19 @@ main p {
 
 .menu a {
     display: block;
+    transition-duration: 0.5s;
+    transition-timing-function: 
 }
 
+
 .menu li:hover>a {
-    padding: 10px;
     font-size: 15px;
+    line-height: 40px;
+    text-align: center;
     color: #fff;
     background-color: #39930d;
-    border-radius: 2px;
+    border-radius: 3px;
+    box-shadow: 0 3px #343434; 
     text-decoration: none; 
 }
 
