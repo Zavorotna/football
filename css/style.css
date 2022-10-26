@@ -55,9 +55,33 @@ header {
     margin: 0 35px;
 }
 
-.ball:hover>img {
-    width: 50%;
+.ball {
+    position: relative;
+    left: 0;
+    animation-name: ball;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
+
+.logo:hover>.ball {
+    animation-play-state: paused;
+}
+
+@keyframes ball {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: 350px;
+    }
+
+}
+
+/* .ball:hover>img {
+    width: 50%;
+} */
 
 .contacts a {
     display: block;
