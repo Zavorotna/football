@@ -228,5 +228,10 @@ main p {
     html {
         font-size: 1,5px;
     }
+}
 
+@media screen and (min-width: 2200px) {
+    html {
+        font-size: 2px;
+    }
 }
