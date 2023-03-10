@@ -196,6 +196,7 @@ main p {
 
     main {
         flex-wrap: nowrap;
+        column-gap: 15rem;
     }
 
     .menu {
