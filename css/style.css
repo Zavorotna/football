@@ -219,3 +219,9 @@ main p {
         animation-play-state: paused;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    html {
+        font-size: 2px;
+    }
+}
